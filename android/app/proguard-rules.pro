@@ -8,3 +8,9 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+
+# Esenzioni WireGuard VPN per Release
+-keep class com.wireguard.** { *; }
+-keep class com.wireguardvpn.** { *; }
+-dontwarn com.wireguard.**
+-dontwarn com.wireguardvpn.**
