@@ -19,7 +19,7 @@ jobs:
           node-version: 22
 
       - name: Install Dependencies
-        run: npm install --no-audit
+        run: npm install --legacy-peer-deps --no-audit
 
       - name: TypeScript Typecheck
         run: npx tsc --noEmit
