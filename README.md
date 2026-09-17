@@ -19,6 +19,34 @@
 
 ---
 
+## 🏛️ System Architecture
+
+```mermaid
+flowchart TD
+    subgraph UI ["Mobile Application Layer (React Native)"]
+        UserUI["1-Tap Connection Screen<br>(Animated Handshake State)"]
+        ConfigGuard["Config Guard and Validation<br>(Checks Placeholder Credentials)"]
+    end
+
+    subgraph NativeBridge ["Native Subsystems Layer"]
+        Bridge["React Native WireGuard Bridge<br>(react-native-wireguard-vpn)"]
+        VpnService["Android VpnService Subsystem<br>(Tun Interface Setup)"]
+    end
+
+    subgraph Tunnel ["Encrypted Network Layer"]
+        CryptoTunnel["ChaCha20-Poly1305 Tunnel<br>(UDP Port 51820)"]
+        Gateway["Remote WireGuard Peer<br>(Secure VPN Gateway)"]
+    end
+
+    UserUI --> ConfigGuard
+    ConfigGuard --> Bridge
+    Bridge --> VpnService
+    VpnService --> CryptoTunnel
+    CryptoTunnel --> Gateway
+```
+
+---
+
 ## 🚀 Quick Start & Setup
 
 ### 1. Prerequisites
