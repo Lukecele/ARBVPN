@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">ARBVPN — WireGuard client for Android, by Lukecele</title>
+  <desc id="desc">React Native and TypeScript. Connect to your own server. Promotional artwork, not an application screenshot.</desc>
+  <rect width="1280" height="640" fill="#0a0a0c"/>
+  <rect x="64" y="64" width="8" height="512" rx="4" fill="#10b981"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="112" y="130" fill="#10b981" font-size="25" font-weight="bold">REACT NATIVE / TYPESCRIPT</text>
+    <text x="106" y="276" fill="#ffffff" font-size="112" font-weight="bold">ARBVPN</text>
+    <text x="112" y="361" fill="#ffffff" font-size="48" font-weight="bold">WireGuard client for Android</text>
+    <text x="112" y="424" fill="#d1d5db" font-size="32">Connect to your own server.</text>
+    <path d="M112 479H1168" stroke="#3f3f46" stroke-width="2"/>
+    <text x="112" y="548" fill="#ffffff" font-size="34" font-weight="bold">by Lukecele</text>
+    <text x="1168" y="548" text-anchor="end" fill="#a1a1aa" font-size="25">github.com/Lukecele/ARBVPN</text>
+  </g>
+</svg>
