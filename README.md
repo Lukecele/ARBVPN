@@ -1,7 +1,6 @@
 # ARBVPN
 > **A lightweight, open‑source Android VPN client for your own WireGuard server.**
 
-![Forks](https://img.shields.io/github/forks/Lukecele/ARBVPN.svg)
 ![Issues](https://img.shields.io/github/issues/Lukecele/ARBVPN.svg)
 ![License](https://img.shields.io/github/license/Lukecele/ARBVPN.svg)
 
