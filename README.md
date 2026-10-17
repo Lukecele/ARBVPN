@@ -1,8 +1,12 @@
 # ARBVPN
 > **A lightweight, open‑source Android VPN client for your own WireGuard server.**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status: 100% Free & Open Source](https://img.shields.io/badge/Status-100%25%20Free%20%26%20Open%20Source-gold)](LICENSE)
 ![Issues](https://img.shields.io/github/issues/Lukecele/ARBVPN.svg)
-![License](https://img.shields.io/github/license/Lukecele/ARBVPN.svg)
+[![React Native: 0.84](https://img.shields.io/badge/React_Native-0.84-61dafb?logo=react&logoColor=black)](https://reactnative.dev/)
+[![WireGuard](https://img.shields.io/badge/VPN-WireGuard_Protocol-88171a?logo=wireguard&logoColor=white)](https://www.wireguard.com/)
+[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
 
 ARBVPN is a mobile client for connecting to **your own WireGuard server**. It provides a single connect/disconnect control and a setup notice when the default configuration is incomplete. You supply the server, client keys, and peer configuration; no hosted VPN infrastructure is included.
 
