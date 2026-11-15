@@ -8,7 +8,7 @@
     "url": "https://github.com/Lukecele/ARBVPN.git"
   },
   "scripts": {
-    "postinstall": "node -e \"console.log('\\x1b[1;36m┌────────────────────────────────────────────────────────┐\\n│ \\x1b[1;32m🛡️  ARBVPN WireGuard Client v1.0.0                       \\x1b[1;36m│\\n│                                                        │\\n│ \\x1b[1;33m⭐ If this open-source VPN client helps your setup:      \\x1b[1;36m│\\n│ 👉 \\x1b[1;34mhttps://github.com/Lukecele/ARBVPN                  \\x1b[1;36m│\\n└────────────────────────────────────────────────────────┘\\x1b[0m')\"",
+    "postinstall": "node -e \"console.log('\\x1b[1;36m┌────────────────────────────────────────────────────────┐\\n│ \\x1b[1;32m🛡️  ARBVPN WireGuard Client v1.0.0                       \\x1b[1;36m│\\n│                                                        │\\n│ \\x1b[1;33m⭐ If this open-source VPN helps you, please star it:   \\x1b[1;36m│\\n│ 👉 \\x1b[1;34mhttps://github.com/Lukecele/ARBVPN                  \\x1b[1;36m│\\n└────────────────────────────────────────────────────────┘\\x1b[0m')\"",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
